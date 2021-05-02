@@ -56,6 +56,7 @@ public class MenuScene {
     @FXML
     void openHowtoScene (ActionEvent event) throws IOException {
         
+        mediaPlayer.pause();
         Parent howtoplayParent = FXMLLoader.load(getClass().getResource("HowtoplayScene.fxml"));
         Scene howtoplayScene = new Scene(howtoplayParent);
 

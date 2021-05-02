@@ -4,14 +4,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.Pane?>
 
 <AnchorPane fx:id="acPane" maxHeight="720" maxWidth="1080" minHeight="480" minWidth="720" prefHeight="720" prefWidth="1080" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HowtoSceneController">
    <children>
+      <Pane fx:id="bg" layoutX="0" layoutY="0" prefHeight="720" prefWidth="1080" />
       <Text layoutX="337.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to Play" wrappingWidth="509.03375244140625">
          <font>
             <Font size="81.0" />
          </font>
       </Text>
-      <Button fx:id="gotoMenuButton" layoutX="56.0" layoutY="611.0" mnemonicParsing="false" onAction="#gotoMenuButtonAction" prefHeight="61.0" prefWidth="105.0" text="Back" />
+      <Button fx:id="gotoMenuButton" layoutX="900.0" layoutY="611.0" mnemonicParsing="false" onAction="#gotHowtoplay2Action" prefHeight="61.0" prefWidth="105.0" text="pange2" />
    </children>
 </AnchorPane>

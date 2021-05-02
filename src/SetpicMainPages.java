@@ -243,4 +243,20 @@ public class SetpicMainPages {
         imageview.setFitHeight(720);
         return imageview;
     }
+
+    public static javafx.scene.image.ImageView setpicBgHowtoplay(){
+        javafx.scene.image.ImageView imageview = new javafx.scene.image.ImageView();  
+        imageview = new javafx.scene.image.ImageView("file:pic/bg/menu.png");
+        imageview.setFitWidth(1080);
+        imageview.setFitHeight(720);
+        return imageview;
+    }
+
+    public static javafx.scene.image.ImageView setpicBgHowtoplay2(){
+        javafx.scene.image.ImageView imageview = new javafx.scene.image.ImageView();  
+        imageview = new javafx.scene.image.ImageView("file:pic/bg/menu.png");
+        imageview.setFitWidth(1080);
+        imageview.setFitHeight(720);
+        return imageview;
+    }
 }

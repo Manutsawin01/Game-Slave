@@ -12,7 +12,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class HowtoSceneController {
+public class HowtoSceneController2 {
 
     @FXML
     private ResourceBundle resources;
@@ -30,9 +30,9 @@ public class HowtoSceneController {
     private Pane bg;
 
     @FXML
-    void gotHowtoplay2Action(ActionEvent event) throws IOException {
+    void gotoMenuButtonAction(ActionEvent event) throws IOException {
 
-        Parent menuParent = FXMLLoader.load(getClass().getResource("HowtoplayScene2.fxml"));
+        Parent menuParent = FXMLLoader.load(getClass().getResource("MenuScene.fxml"));
         Scene menuScene = new Scene(menuParent);
 
 
@@ -44,7 +44,7 @@ public class HowtoSceneController {
 
     @FXML
     void initialize() {
-        bg.getChildren().add(SetpicMainPages.setpicBgHowtoplay());
+        bg.getChildren().add(SetpicMainPages.setpicBgHowtoplay2());
         assert gotoMenuButton != null : "fx:id=\"gotoMenuButton\" was not injected: check your FXML file 'HowtoplayScene.fxml'.";
 
     }
